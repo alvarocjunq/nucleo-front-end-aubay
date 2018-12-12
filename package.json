@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start:ng": "ng serve --open",
+    "start": "node server.js",
+    "build": "ng build --prod",
+    "postinstall": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -21,6 +23,8 @@
     "@angular/platform-browser-dynamic": "~7.0.0",
     "@angular/router": "~7.0.0",
     "core-js": "^2.5.4",
+    "express": "4.16.4",
+    "path": "0.12.7",
     "rxjs": "~6.3.3",
     "zone.js": "~0.8.26"
   },
