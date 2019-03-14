@@ -10,8 +10,8 @@ export class TextMorphComponent implements OnInit {
   textMorph = 'Aubay Portugal';
   readonly words = [
     'Ahead of Innovation',
-    'Bem vindo',
     'Aubilous',
+    'Aubiloko',
     'Front-end',
     'Aubay Portugal'
   ];
